@@ -242,6 +242,35 @@ a { color: var(--brand-700); }
 }
 .card h3 { font-size: 1.2rem; }
 .card p:last-child { margin-bottom: 0; }
+.card .citation {
+  font-size: 0.85rem;
+  color: var(--ink-500);
+  border-top: 1px solid rgba(17, 61, 56, 0.1);
+  padding-top: 16px;
+  margin-top: 16px;
+}
+.card .citation a { color: var(--brand-700); }
+
+.evidence-more {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(17, 61, 56, 0.1);
+}
+.evidence-more h3 { font-size: 1.05rem; margin-bottom: 0.75em; }
+.ref-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.ref-list li {
+  font-size: 0.92rem;
+  color: var(--ink-700);
+  line-height: 1.6;
+}
+.ref-list a { color: var(--brand-700); }
 
 /* Product */
 .product-grid {
