@@ -280,12 +280,20 @@ a { color: var(--brand-700); }
   align-items: center;
 }
 .product-visual {
-  background: linear-gradient(160deg, var(--brand-900), var(--brand-700));
+  background: var(--white);
   border-radius: var(--radius-lg);
   padding: 32px;
   box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(17, 61, 56, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.device-art { width: 100%; height: auto; }
+.device-photo {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
 
 .feature-list {
   list-style: none;
